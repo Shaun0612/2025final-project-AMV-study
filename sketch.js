@@ -21,6 +21,8 @@ function preload() {
 }
 
 function setup() {
+   // 強制設定像素密度為 1，大幅提升大螢幕與高解析度螢幕的效能
+  pixelDensity(1);
   createCanvas(windowWidth, windowHeight);
   textAlign(CENTER, CENTER);
 
